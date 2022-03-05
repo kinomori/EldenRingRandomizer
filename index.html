@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring Build Generator</title>
+    <script src="https://kit.fontawesome.com/60c5a8752c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>Elden Ring random build generator</h1>
+        <section class="submitSection">
+            <h2 id="formHeading" class="offscreen">Enter seed</h2>
+            <form id="submitForm" class="submitSection__form">
+                <button class="button" aria-label="Submit">
+                    <i class="fa-solid fa-dice-six"></i>
+                </button>
+            </form>
+        </section>
+    </header>
+
+    <main>
+        <li>Easy: Pick two passives from list. Choose any weapon given. </li>
+        <li>Medium: Pick three passives from list. Choose two weapons for each hand, only use that weapon for entire run.</li>
+        <li>Hard: Pick four passives from list. Choose one weapon for each hand, only use that weapon for entire run.</li>
+        <li>Expert: Use all passives from list. Choose one weapon from either hand, two hand that weapon for the entire run.</li>
+        </li>
+    </main>
+
+    <main>
+
+        <section id="guide" class="guide">
+            To start, pick a difficulty from the above list. Then click the dice button to roll your build. The list of weapons will be what you're allowed to use in your left and right hand. The passives are meant to be followed for the entire run. The most important part is to have fun, so don't feel afraid to add extra difficulty, or even lighten the difficulty more.
+        </section>
+
+        <section id="classSuggestion" class="classSuggestion hidden">
+            <ol></ol>
+        </section>
+    </main>
+
+    <main>
+        <section id="passiveSuggestion" class="passiveSuggestion hidden">
+            <ol></ol>
+        </section>
+    </main>
+
+    <div class="float-container">
+
+        <div class="float-child">
+            <section id="leftWeaponSuggestion" class="leftWeaponSuggestion hidden">
+                <ol></ol>
+            </section>
+        </div>
+        <div class="float-child">
+            <section id="rightWeaponSuggestion" class="rightWeaponSuggestion hidden">
+                <ol></ol>
+            </section>
+        </div>
+
+    </div>
+
+
+    
+
+</body>
+</html>
