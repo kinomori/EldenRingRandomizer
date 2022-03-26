@@ -58,6 +58,5 @@ export const passiveList = {
     18: "Can't pickup maps", 
     19: "Max soul level of 100", 
     20: "No summoning (players or ashes)",
-    21: "Max soul level of 100",
-    22: "Must aquire all great runes before end of game",
+    21: "Must aquire all great runes before end of game",
 }
