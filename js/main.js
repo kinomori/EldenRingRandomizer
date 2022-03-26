@@ -52,7 +52,7 @@ const generateNames = () => {
 
     const randomLeftWeaponArr = [];
     for (let i = 0; i < 4;) {
-        const randomNumber = Math.floor(Math.random() * 10);
+        const randomNumber = Math.floor(Math.random() * 21);
         if (randomLeftWeaponArr.includes(randomNumber)) continue;
         randomLeftWeaponArr.push(randomNumber);
         i++;
@@ -63,7 +63,7 @@ const generateNames = () => {
 
     const randomRightWeaponArr = [];
     for (let i = 0; i < 4;) {
-        const randomNumber = Math.floor(Math.random() * 19);
+        const randomNumber = Math.floor(Math.random() * 21);
         if (randomRightWeaponArr.includes(randomNumber)) continue;
         randomRightWeaponArr.push(randomNumber);
         i++;
